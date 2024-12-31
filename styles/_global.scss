@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
+@import './colors';
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.parent-container{
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    background-color:  hsl(0, 0%, 100%);
+    padding:1rem; 
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px 5px #000;
+    margin:auto;
+    margin-bottom: 0.3rem;
+}
+
+
+
+.published{
+    color: $gray950;
+    margin-top:0.5rem;
+    font-size: 0.90rem;
+}
+
+.heading{
+    display: block;
+    width: 100%;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    h3{
+        font-size: 1rem;
+        font-weight: 900;
+        margin:.5rem 0 0 0;
+        
+    }
+    p{
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    color:$gray500;
+    margin:.5rem 0;
+    }
+}
+
+
+
+.author{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .avatar{
+        width:50px;
+       img{
+        width:100%;
+       }
+    }
+    .name{
+        p{
+            width: 195px;
+            font-size: 1rem;
+            color: #000;
+            font-weight: 800;         
+        }
+    }
+}
+
+
+footer{
+    margin:2rem 0 0 0;
+    font-size:2rem;
+}

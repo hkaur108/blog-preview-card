@@ -1,0 +1,16 @@
+@import './global';
+@import './top';
+@import './button';
+@import './colors';
+
+body{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $backGroundColor;
+    font-family: "Figtree", serif;
+    margin: 0;
+}
